@@ -1,0 +1,1 @@
+$execute run function mphelper:place_random/sky_assets_from_list {list: "minipurgeblue:variables blimps", count: $(blimp_count), upper_padding: 50, lower_padding: 10}
