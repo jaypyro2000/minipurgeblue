@@ -1,12 +1,30 @@
 {
-  "name": "minipurgeblue:blueblimp1_pool",
+  "name": "minipurgeblue:blimps",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minipurgeblue:testblimp1",
+        "location": "minipurgeblue:jblueblimp1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minipurgeblue:jredblimp1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minipurgeblue:jyellowblimp1",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
